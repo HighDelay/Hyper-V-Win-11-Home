@@ -12,10 +12,10 @@ Completely disable Hyper-V and stop them from running again:
 ```
 bcdedit /set hypervisorlaunchtype off
 ```
-Then restart the PC to apply the change
+Then restart your PC to apply the change
 
 To enable it again run the following command:
 ```
 bcdedit /set hypervisorlaunchtype auto
 ```
-Restart yout PC to apply the change.
+Restart your PC to apply the change.
