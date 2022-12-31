@@ -7,6 +7,7 @@ Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-Hypervisor
 ```
 
 In case Hyper-V is still running even after you have disabled it via "Windows Features" or the powershell command above, paste the following command in windows terminal or cmd, whichever works for you.
+
 Completely disable Hyper-V and stop them from running again:
 ```
 bcdedit /set hypervisorlaunchtype off
